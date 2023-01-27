@@ -1,0 +1,12 @@
+Compute -> contains cpu,gpu,disk,ethernet with card, main memory,usb all hardware devices
+
+Apps-> used to perform some task
+
+user-> user use the apps and they will get some work done
+
+Operating System-> This os act as a manager between apps and  compute and distribute the resources bewtween apps || It make sure all the resources are available to the applications and none of the applications are consuming more resources than it needs, manage the resource.
+Os does resource management, Also it provide simple interface to the applications to interact with the hardware.
+Hides the hardware complexity
+
+Summary 
+An os is a peice of code (software and functions) that interfaces the applications and the hardware it also act as a resource manager and hides the hardware complexity

@@ -1,0 +1,18 @@
+In case of Scanner OS hiding the complexity as it connect the scanner to computer directly
+
+In case of Copy and Paste Os hiding the complexity as it copying and pasting to desired position
+
+In case of multitasking of apps the Os managing the resource as well as hiding the complexity cause it managing the memory to be available for all devices also we just running the apps without worrying about the allocation
+
+In case of speakers from different Vendors connect with the system
+here Os is hiding the underline complexity as it has drivers available to play the song in different speakers
+
+In case of Pen digitizer we have to connect it with system and Os is hiding the underline complexity
+
+In case of Distributuing memory among apps Os is hiding the complexity as we dont have to deal with the memeory Os is doing that for us at same time managing the resource according to the apps requirement
+
+When an Os hides the complexity of the hardware that is known as abstraction
+
+When an Os act as resource manager that is known as arbitration
+
+Os is a peice of code that perform abstraction and arbitration of a computer system

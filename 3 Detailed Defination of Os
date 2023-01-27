@@ -1,0 +1,18 @@
+OS->
+1) Interface between apps and hardware
+2) therefore it has priveledge access on hardware
+3) Hides the complexity of hardware
+4) Act as resource manager
+5) Prevent apps from overwriting data over another apps data provides securtiy and isolation of data 
+
+OS->
+1) peice of code that has priveledge acces over complex hardware
+2) Hides the complexity of hardware
+3) resource manger
+4) isolation and protection to the apps
+
+
+Example of Different Operating Systems 
+1)Desktop Operating System are those Os which we use on Desktop or laptops or on servers like windows, linux and MacOs
+
+2) Mobile Operating System -> AndroidOs, Ios

@@ -1,0 +1,36 @@
+Components that form Operating System
+
+ Abstraction -> All the apps in system can interact with hardware easily without any problem 
+
+ Arbitration ->All the resources present in system managed properly 
+
+
+Components
+
+1) Kernel -> has priveledge access on the underlining hardware. If kernel crashes the os will not work properly beacuse the apps will not be able interact with hardware, Therefor Kernel is the heart/Core of Os and when We start the system it is the kernel which get loaded it is the first program get loaded in Os 
+
+
+2) User Space -> Where all the apps runs . they dont have priveledge access only kernel has the access. 
+Any Components which help in interact with computer is part of the user Space
+i) GUI (Graphical User Interface)-when we turn on window system a gui is open up , using which we interact with system
+
+ii) CLI (Command Line Interface) -> what we can do via gui we can do it with cli as well we run this command on the shell of the system every Os has a shell
+
+iii)System programs -> All the programs that are present in system
+
+All these 3 Components is a part of user space and by which we can interact with the computer
+
+when we run a code or application it run on a user space as we cannot access the kernel space directly and if this code needs the access to the hardware then it will interact with the kernel and kernel will grant the controlled access to this code
+
+
+FUNCTIONALITIES OF KERNEL
+process ->Any code under that is under execution is known as process 
+
+1) Process management -> helps to create ,schedule and terminate the process apart from it , it will take care of the order in which process will run the amount of memeory a process will consume and how long the process will run and take care of all the functionalitites of a process
+
+2) Memory management -> It manages the memory present on system, when we run a code it need certain amount of memory which is allocated by the kernel, also it optimise the memory for ex if the code is executes then it'll require the certain amount of memory which is allocated by kernel and if it get terminates then the memeory management will deallocte that memory so that it can be used in some other process this is how it optimise the memory
+
+3) File manager -> It manages the storage attached to the system
+like disc so it manages all the files present in the disk, It deals with creation, deletion and optimization of file , keep time track of creation. also deals with ownership of the file
+
+4) I/O manager -> Manage Io devices connected to system , like mouse,keyboard , moniters ,floppy etc , for ex we want to copy a file when we hit copy option the program copy the content of file in memory 
