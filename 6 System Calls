@@ -1,0 +1,4 @@
+1) To create a directory ->" mkdir foldername " this mkdir is interact with kernel/OS via system calls -> these calls provide controlled acces to the underlinig hardware , If this command has direct acces to the kernel then if the command was not right then the entire system crashes, therefore the kernal make sure that the proper application has acces to the underlie hardware
+When the program is executed the Os will create the process for this program  for this the program has to switch from user mode to kernal mode this happen with the help of System calls ( this system call is about to create a file on starage , to acess a memory or other functionalitites of kernal) when the requirement is satisfied it swtich back to kernal mode to user mode and start executing in user mode
+
+SYSTEM CALLS IS INTERFACE BETWEEN APPLICATION AND KERNEL

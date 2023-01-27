@@ -1,0 +1,49 @@
+Categories of System Calls
+1) Process Control -> To run a program Os will create a process and attach unique identifier to it known as process ID or PID which is used to cerate or  terminate  a process also wait for certain time
+fork() -> for creating new process
+exit() -> for terminate a running process properly (properly means deallocte the memory close the files and terminate the child process of that process)
+wait()-> here the parent process will wait till the child process completed and calls exits after then parent process will resume
+exec()-> replace the running code with new code within same process with same PID
+
+Linux code 
+ps -> for check the running process
+ps -ef -> for details of the running process
+ps -ef | grep root -> to check the process related to the root account
+echo $$  -> to get the process id of terminal
+ps -ef | grep PID -> to get the details related to the process
+exec sleep 300 -> it will wait for 3 seconds and then sleep
+kill -> terminate a process abruptly means it won't the same as exit like dealloaction and all stuff normally the program get terminated by simple kill call but if we call "kill -9 PID" then it will get  killed with "kill -15 PID" it get terminated cleanly, by "kill -2 PID " itll kill the function by keyboad interupt
+
+2) File management ->file is a peice of data stored in disk  , Open a file , read a file, write a file, close file, create a file
+open -> to open file
+read -> to read
+write -> to write on file
+close -> close a file
+create -> to create a file
+
+Security of file
+1) ownership -> chown()
+2) permission -> chmod() 
+(read ,
+write,
+execute)
+
+cat filename -> to read the file (wrapper around open read and close)
+chown ownername filename -> to change the ownership
+ls -l filename -> to see the owner of the file
+chmod -w filename -> to remove the write access from the file
+
+3) Device management -> Device management system calls provide access to  cpu, memory,filesystem, usb,keyboard,mouse
+open()-> aceess device
+read()-> access device
+also to attach and detach a device we use device management
+
+4) Information management -> Gives information like current date and time and info about free space or allocated memory version of Os what process are running and thier Pid PPid
+getpid -> return the process id
+getppid ->return the parent process id of cureent process  
+
+
+5) communication -> system calls availabe are
+pipe
+shm.opem
+mmap
