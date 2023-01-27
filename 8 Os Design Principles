@@ -21,6 +21,7 @@ these 2 are the mechanism
 
 Least recently used policy -> according to this which memeory page is least used that page is replaced with the new memory page
 
+Abstraction includes OS’s abstracted form of hardware resources, mechanism is how to do something and policies are what will be done
 
 
 DESIGN PRINCIPLE FOR OS
