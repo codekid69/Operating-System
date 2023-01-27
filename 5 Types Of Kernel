@@ -1,0 +1,14 @@
+Types of Kernel
+
+1) Monolithical Kernal -> kernel made of single peice code having 4 different fucntionalities process management, memory management, file manager, I/o manager. Size of this kernel is very high then amount of memory require is also high for this type of kernel and if any of single functionality crashes whole kernel get crashes and Os will also crack eventually but the communication between functionalitites is very fast. ex-> linux and unix use this type of Kernel
+
+
+2) Micro Kernal -> Here major functionalitites such as Memory or process management is only present in kernel rest of the functionalitites is present in user space, Size of this kernel is less than Monolithic, therefore overall size of Os is less. The functionalitites has their own seprate module (code base)therefore if one of the functionality get crashes it does not effect the Os,
+Debugging is easy since every functionalitites has different code base , portability is not very easy because it is designed for specialized hardware, it is difficult to make it work on different hardware. communication take place within functionalitites via IPC (Interprocess communication) which is also a part of kernel , Communicate via continous switching between user space and kernel which results in more overhead required  that is why performace of this kernel is slower than Monolithic kernel example-> Linux, Symbian Os (used in Old nokia phones)
+
+3) Hybrid Kernal ->Here memory management, process management and device drivers are part of kernel and file management is still in user space therefore the size of this kernel is still less than Monolithic kernel also each of these functionalitites/Modules are of different code base thats why Debugging is easier therefore if one of the module crashes it does not effect the Os reliability is more . communication between application and different module in user space Take Place via IPC (Interprocess communication) same via switching but the no of module in user space is less than Micro
+ kernel therefore overhead is less and performace is high than Micro kernel . By this architecture we get the less size kernel than Monolithic and high performing kernel than Micro kernel ex-> Windows Nt (windows 7,10), MacOs
+
+ 4) Nano Kernal
+
+ 5) Exo Kernal
