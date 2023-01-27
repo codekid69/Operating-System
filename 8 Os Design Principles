@@ -1,0 +1,33 @@
+Os Design Principles
+
+1)policy -> A set of rules to get a job done
+
+2) mechanism -> it is method to get policy fulfilled
+
+Analogy of employee authentication
+
+policy -> to get all the employee authenticated before entering the office
+1 method -> card reader
+2 method -> retina scan
+these 2 are the mechanism
+
+3 main element of Os
+
+1) abstraction -> method the Os use to hide the complexity of underlining hardware
+
+2) mechanism -> method that follow to fulfill abstraction using system calls like read , create, fork etc
+
+3) policy -> plans that is considered when fulfilling an abstraction
+
+Least recently used policy -> according to this which memeory page is least used that page is replaced with the new memory page
+
+
+
+DESIGN PRINCIPLE FOR OS
+
+1) mechanism and policy should be seprate
+many application should support single mechanism and taht mechanism should supprt different policies
+
+2) Common Used Cases -> user targeted , workload targeted, what type of apps work on this Os
+
+3) OS should macro manage not micro manage -> means it should not take all descion by its own if it is then it should be resouce and time consuming
